@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+.logo,
+.icon-cart{
+    margin: 10px 80px;
+}
+.header-main{
+    position: relative;
+    background-image: url("img/hero.jpg");
+    background-size: cover;
+    height: 400px;
+    
+}
+.header-title{
+    position: absolute;
+    top:40%;
+    left: 15%;
+    color: #fff;
+    line-height: 30px;
+}
+.header-title h2{
+    font-size: 50px;
+    font-weight: 300 ;
+}
+.header-title p{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 30px 0px 2px;
+}
+.header-title input{
+    height: 35px;
+    width: 475px;
+}
+.icon-search{
+    position: absolute;
+    right: 0px;
+    bottom: 6px;
+}
+/* ------------header info-------- */
+.header-info{
+    background-image: linear-gradient(to right,rgb(125,33,80), rgb(220,75,82));
+    display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+}
+.header-info-icon{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    
+}
+.header-info-icon p{
+    line-height: 2;
+    padding-left: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+/* -----------Container---------- */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.product-row{
+    display: flex;
+    justify-content:space-evenly;
+}
+.product-box{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    /* box-shadow: 1px 1px 1px 1px #888888; */
+    border: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+}
+.product-box>p,
+.product-box>h3,
+.product-box .stars,
+.product-box .price-old{
+    padding: 5px;
+}
+
+.img-product{
+    width: 250px;
+}
+.product-info{
+    margin-top: 32px;
+}
+.price-old{
+    text-decoration: line-through;
+    color: #888888;
+}
+.price-new{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    right: 15px;
+}
+.btn{
+    position: absolute;
+    background: cornflowerblue;
+    margin-top: 40px;
+    padding: 10px 75px;
+    margin-left: 11px;
+}
+footer{
+    border-top: 1px solid #e8e8e8;
+}
+.footer-width{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: space-around;
+    margin-left: 135px;
+}
